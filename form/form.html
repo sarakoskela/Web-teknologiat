@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lomake</title>
+</head>
+
+<body>
+
+
+    <fieldset>
+        <legend>Contact information:</legend>
+        <form>
+            <table>
+
+
+
+                <tr>
+                    <td><label>First name:</label></td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                    <td>Preferred contact method: </td>
+
+
+                </tr>
+                <tr>
+                    <td><label>Last name:</label></td>
+                    <td>
+                        <input type="text" id="lname" name="lname">
+                    </td>
+
+                    <td>
+                        <input type="checkbox" id="contactEmail" name="contactEmail" value="contactEmail">
+                        <label for="contactEmail"> Email </label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td>
+                        <input type="text" id="email" name="email">
+                    </td>
+                    <td>
+                        <input type="checkbox" id="contactPhone" name="contactPhone" value="contactPhone">
+                        <label for="contactPhone"> Telephone </label>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td><label>Telephone: </label></td>
+                    <td> <input type="text" id="Telephone" name="telephone"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+
+
+    <fieldset>
+        <legend> Feedback:</legend>
+        <table>
+            <tr>
+                <td colspan="2"><label>Message subject:</label></td>
+                <td> <input type="text" id="Messagesubject" name="messageSubject"></td>
+            </tr>
+        </table>
+        <tr>
+            <textarea name="message" rows="5" cols="50"></textarea>
+        </tr>
+        <table>
+            <tr>
+                <td><label> Attach file:</label></td>
+                <td><button type="button">Choose file</button></td>
+                <td> <label>No file chosen</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button2">Send</button>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+</body>
+
+</html>
