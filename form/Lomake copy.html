@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lomake+css</title>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="styles.css">
+</head>
+
+<body>
+
+
+    <fieldset class="container">
+        <legend>Contact information:</legend>
+        <form>
+            <div class="container">
+                <div class="input-container">
+                    <label>First name:</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class="input-container">
+                    <label>Last name:</label>
+                    <input type="text" id="lname" name="lname">
+                </div>
+
+                <div class="input-container">
+                    <label>Email:</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="input-container">
+                    <label>Telephone: </label>
+                    <input type="text" id="Telephone" name="telephone">
+                </div>
+
+
+            </div>
+            <div>
+                <div class="container">
+                    <div>Preferred contact method:</div>
+                    <div class="input-container">
+                        <input type="checkbox" id="contactEmail" name="contactEmail" value="contactEmail">
+                        <label for="contactEmail"> Email </label>
+                        <input type="checkbox" id="contactPhone" name="contactPhone" value="contactPhone">
+                        <label for="contactPhone"> Telephone </label>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </fieldset>
+
+    <fieldset class="container">
+        <legend> Feedback:</legend>
+        <form>
+            <div>
+
+                <label>Message subject:</label>
+                <input type="text" id="Messagesubject" name="messageSubject">
+                <textarea name="message" rows="5" cols="50"></textarea>
+                <label> Attach file:</label>
+                <button type="button">Choose file</button>
+                <label>No file chosen</label>
+
+
+
+                <button type="button2">Send</button>
+            </div>
+        </form>
+    </fieldset>
+
+</body>
+
+</html>

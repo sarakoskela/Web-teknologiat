@@ -1,0 +1,55 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 60%;
+    margin: auto;
+}
+
+fieldset {
+    background-color: lavender;
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+input,
+textarea {
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: lavenderblush;
+}
+
+input:focus {
+    background-color: rgba(230, 230, 250, 0);
+}
+
+input[type="file"] {
+    background-color: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+fieldset.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
