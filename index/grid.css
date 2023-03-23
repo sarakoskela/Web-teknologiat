@@ -8,6 +8,7 @@
         "footer footer";
 }
 
+
 .header {
     grid-area: header;
     background-color: pink;

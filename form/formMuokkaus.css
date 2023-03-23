@@ -1,0 +1,39 @@
+.form {
+    margin: 20px;
+    padding: 20px;
+
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "contactinfo contactmethod"
+        "feedback feedback";
+}
+
+.contactinfo {
+    grid-area: contactinfo;
+    background-color: grey;
+    text-align: left
+}
+
+.contactmethod {
+    grid-area: contactmethod;
+
+}
+
+.feedback {
+    grid-area: feedback;
+
+}
+
+button {
+    background-color: white;
+}
+
+
+
+fieldset {
+    border: 2px solid white;
+}

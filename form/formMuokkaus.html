@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form muokkaus</title>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="formMuokkaus.css">
+
+</head>
+
+<body>
+    <div class="form">
+        <fieldset>
+            <legend>Contact information:</legend>
+            <div class="contactinfo">
+                <label>First name:</label>
+                <input type="text" id="fname" name="fname">
+                <br>
+                <label>Last name:</label>
+                <input type="text" id="lname" name="lname">
+                <br>
+                <label>Email:</label>
+                <input type="text" id="email" name="email">
+                <br>
+                <label>Telephone: </label>
+                <input type="text" id="Telephone" name="telephone">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Contact method:</legend>
+            <div class="contactmethod">
+                <br>
+                Preferred contact method:
+                <br> <input type="checkbox" id="contactEmail" name="contactEmail" value="contactEmail">
+                <label for="contactEmail"> Email </label><br>
+                <input type="checkbox" id="contactPhone" name="contactPhone" value="contactPhone">
+                <label for="contactPhone"> Telephone </label>
+
+            </div>
+        </fieldset>
+
+
+        <div class="feedback">
+            <fieldset>
+                <legend> Feedback:</legend>
+
+                <label>Message subject:</label>
+                <input type="text" id="Messagesubject" name="messageSubject">
+                <br>
+                <textarea name="message" rows="5" cols="50"></textarea>
+                <br>
+
+                <label> Attach file:</label>
+                <button type="button">Choose file</button>
+                <label>No file chosen</label>
+                <br>
+                <button type="button2">Send</button>
+                <br>
+            </fieldset>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

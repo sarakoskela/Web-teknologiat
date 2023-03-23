@@ -17,6 +17,7 @@
     width: flex;
 
     padding: 5px 25px 25px 25px;
+    align-items: stretch;
 
     margin-left: 20px;
     margin-left: 10px;
