@@ -1,6 +1,6 @@
 .form {
-    margin: 20px;
-    padding: 20px;
+    margin: 22px;
+    padding: 22px;
 
     font-family: 'Courier New', Courier, monospace;
     background-color: grey;
@@ -15,15 +15,17 @@
 .contactinfo {
     grid-area: contactinfo;
     background-color: grey;
-    text-align: left
+    text-align: left;
 }
 
 .contactmethod {
+    text-align: left;
     grid-area: contactmethod;
 
 }
 
 .feedback {
+    text-align: left;
     grid-area: feedback;
 
 }
