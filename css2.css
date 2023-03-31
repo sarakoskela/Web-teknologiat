@@ -1,0 +1,35 @@
+body {
+    background-color: #b8a8d7;
+
+}
+
+a {
+    color: white;
+}
+
+a:active {
+    color: black;
+}
+
+
+a:visited {
+    color: white
+}
+
+.nav {
+    background-color: #b19cda;
+
+}
+
+.card {
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+
+.container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    align-items: center;
+}

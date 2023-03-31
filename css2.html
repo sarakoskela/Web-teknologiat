@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+    1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="css2.css">
+    <title>Css</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul class="nav justify-content-center">
+            <div class="row">
+                <div class="col">
+                    <li class="nav-item">
+                        <a class="Etusivu" aria-current="page" href="#">Etusivu</a>
+                    </li>
+                </div>
+                <div class="col">
+                    <li class="nav-item">
+                        <a class="Lomake"
+                            href="https://sarakoskela.github.io/Web-teknologiat/form/formMuokkaus.html">Lomake</a>
+                    </li>
+                </div>
+                <div class="col">
+                    <li class="nav-item">
+                        <a class="Kurssilista"
+                            href="https://sarakoskela.github.io/Web-teknologiat/index/kurssilista.html">Kurssilista</a>
+                    </li>
+                </div>
+            </div>
+
+        </ul>
+    </nav>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;HTML&gt;</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">(Hypertext Markup Language)</h6>
+                        <p class="card-text">
+                            Avoimesti standardoitu merkintäkieli, jolla voidaan kuvata hypertekstiä.
+                            Sillä voidaan esim. merkitä tekstin otsikko sekä leipäteksti.
+                        </p>
+                        <a href="https://fi.wikipedia.org/wiki/HTML" class="card-link">Wikipedia</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;HEAD&gt;</h5>
+                        <p class="card-text">Elementti metadatalle. <br>
+                            Sijoitetaan &lt;HTML&gt; &lt;BODY&gt; tagien väliin.</p>
+                        <a href="https://www.w3schools.com/tags/tag_head.asp" class="card-link">W3School</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;BODY&gt;</h5>
+                        <p class="card-text">Elementti sisältää kaiken HTML-sisällön; otsikoinnin, kappalejaon,
+                            kuvat, hyperlinkit, taulukot, listat yms. </p>
+                        <a href="https://www.w3schools.com/tags/tag_body.asp" class="card-link">W3School</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Tekstin muotoilu</h5>
+                        <h6 class="card-subtitle mb-2 text-muted"></h6>
+                        <p class="card-text">Tekstiä voi muotoilla monin eri tavoin.<br>
+                            &lt;B&gt; <b>Lihavoitu</b><br>
+                            &lt;i&gt;<i>Kursivoitu</i><br>
+                            &lt;strong&gt;<strong>Vahvistettu</strong><br>
+                            &lt;em&gt;<em>Huomioitu</em><br>
+                            &lt;mark&gt;<mark>Merkitty</mark><br>
+                            &lt;small&gt;<small>Pieni</small><br>
+                            &lt;del&gt;<del>Yliviivattu</del><br>
+                            &lt;ins&gt;<ins>Alleviivattu</ins><br>
+                            &lt;sup&gt;<sup>Yläindeksi</sup><br>
+                            &lt;sub&gt;<sub>Alaindeksi</sub>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;IMG&gt;</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">&lt;img src="img_girl.jpg" alt="Girl in a jacket"
+                            width="500" height="600"&gt;</h6>
+                        <p class="card-text">Kuvan lisäys sivullesi.<br>
+                            src = lähde (kuvan url tai tiedostosijainti )<br>
+                            alt = vaihtoehtoinen teksti kuvalle, jos se ei jostain syystä näkyisikään.
+                        </p>
+                        <a href="https://www.w3schools.com/tags/tag_img.asp" class="card-link">W3School</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">&lt;A&gt;</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">&lt;a href="www.xxx.fi"&gt; Tämä on linkki &lt;/a &gt;
+                        </h6>
+                        <p class="card-text">Linkin lisäys. Href jälkeen kirjoitetaan osoite lainausmerkkien sisään.<br>
+                            Oletusasetusten mukaan käymätön linkki on sininen, käyty linkki alleviivattu violetti, ja
+                            aktiivinen linkki on alleviivattu punainen.</p>
+                        <a href="https://www.w3schools.com/tags/tag_a.asp" class="card-link">W3School</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">&lt;BR&gt;</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Tekstiä &lt;BR&gt; eri &lt;BR&gt;
+                                riveillä.
+                            </h6>
+                            <p class="card-text">Rivin vaihto.</p>
+
+                            <a href="https://www.w3schools.com/tags/tag_br.asp" class="card-link">W3School</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">&lt;H1&gt;</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">&lt;H1&gt;Otsikko&lt;/H1&gt;</h6>
+                            <p class="card-text">Otsikko. Koon voi määrittää H1-H6 väliltä. H1 on suurin ja H6 pienin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">&lt;P&gt;</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">&lt;p&gt; Tässä on tekstiä &lt;/p &gt; </h6>
+                            <p class="card-text">Merkitsee tekstikappaleen.</p>
+                            <a href="https://www.w3schools.com/tags/tag_p.asp" class="card-link">W3School</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
